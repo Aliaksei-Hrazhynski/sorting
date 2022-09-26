@@ -1,4 +1,5 @@
 # bubble sort algorithm
+# complexity O(n**2)
 def bubbleSort(array):
     swapped = False
     for i in range(len(array)-1,0,-1):
@@ -14,6 +15,7 @@ def bubbleSort(array):
     
     
 # selection sort algorithm
+# complexity O(n**2)
     def selectionSort(array):
     for i in range(len(array)-1):
         min_idx = i
