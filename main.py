@@ -16,7 +16,7 @@ def bubbleSort(array):
     
 # selection sort algorithm
 # complexity O(n**2)
-    def selectionSort(array):
+def selectionSort(array):
     for i in range(len(array)-1):
         min_idx = i
         for idx in range(i + 1, len(array)-1):
